@@ -11,32 +11,29 @@
         android:layout_width="match_parent"
         android:layout_height="180dp"
         android:text="Login"
-        android:paddingVertical="35dp"
+        android:paddingVertical="50dp"
         android:textAlignment="center"
         android:textSize="60sp"
         android:fontFamily="cursive"
         android:textColor="@color/black"
         android:background="@drawable/bg"
-        android:layout_marginBottom="25dp"
+        android:layout_marginBottom="30dp"
         />
     <TextView
         android:layout_width="match_parent"
         android:layout_marginHorizontal="30dp"
         android:layout_height="wrap_content"
-        android:text="User name"
-        android:textColor="@color/white"
         />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="30dp"
+        android:hint="username"
         />
     <TextView
         android:layout_width="match_parent"
         android:layout_marginHorizontal="30dp"
         android:layout_height="wrap_content"
-        android:text="Password"
-        android:textColor="@color/black"
         />
     <EditText
         android:layout_width="match_parent"
